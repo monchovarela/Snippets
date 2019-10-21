@@ -17,8 +17,6 @@ Lleva un archivo **glupfile.js** para comprimir el css y el javascript.
       npm install
       gulp 
   
-**:( Solo ha sido probado en Windows 10 version 1903**
-
 ### Crear ejécutable con Pyinstaller
 
 Prímero necesitas copiar **WebBrowserInterop.x64.dll**, y **WebBrowserInterop.x86.dll** en la carpeta del entorno virtual **venv\Lib\site-packages\webview\lib\** y 
@@ -56,3 +54,7 @@ Y también añadir los datos
           --exclude-module "tkinter"
 
 Guardar como build.bat y ejecutar 
+
+luego copiar la carpeta storage en la carpeta dist y ya podra usarse.
+
+**:( Solo ha sido probado en Windows 10 version 1903**
