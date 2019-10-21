@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Snippets</title>
+    <meta name="description" content="Snippets">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="app.min.css" />
+</head>
+
+<body>
+    
+    <div id="loader">
+        <div class="preloader"></div>
+    </div>
+    
+    <main id="app" >
+        <aside id="app-sidebar">
+            <header id="app-sidebar-header">
+
+                <input 
+                    type="text" 
+                    class="input-search hide" 
+                    placeholder="Search by title" 
+                />
+
+                <div class="left">
+                    <button id="searchSnippet" title="Search by title">
+                        <span class="icon-search"></span>
+                    </button>
+                </div>
+
+                <div class="right">
+                    <button id="newSnippet" title="Create new Snippet">
+                        <span class="icon-new"></span>
+                    </button>
+                </div>
+
+          
+            </header>
+            <section id="app-sidebar-content"></section>
+        </aside>
+        <section id="app-content">
+            <header id="app-main-header">
+                <div class="left">
+                    <button id="saveSnippet" title="Save Snippet">
+                        <span class="icon-save"></span>
+                    </button>
+                    <button id="deleteSnippet" title="Delete Snippet">
+                        <span class="icon-trash"></span>
+                    </button>
+                </div>
+                <div class="right">
+                    <button id="infoSnippet" title="Get Snippet Info">
+                        <span class="icon-help"></span>
+                    </button>
+                </div>
+            </header> 
+            <section id="app-main-content">
+                <textarea id="editor"></textarea>
+            </section>
+        </section>   
+
+        <div id="overlay" class="overlay"></div>
+        <div id="modal" class="modal">
+            <div class="modal-header">
+                <div class="left">
+                    <h3 class="modal-title">Help</h3>
+                </div>
+                <div class="right">
+                    <button id="cancel" class="cancel">
+                        <span class="icon-cancel"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="modal-content"></div>
+        </div>
+
+    </main>
+
+
+
+    <script src="js/editor.js"></script>
+    <script src="app.min.js"></script>
+</body>
+
+</html>
