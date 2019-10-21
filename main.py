@@ -123,6 +123,6 @@ if __name__ == '__main__':
     )
 
     if(DEBUG):
-        webview.start(http_server=True,gui='cef',debug=True)
+        webview.start(http_server=True,debug=True)
     else:
         webview.start(debug=False)
