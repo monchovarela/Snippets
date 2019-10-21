@@ -2,6 +2,8 @@
 
 Es una aplicación creada con Pywebview para crear trozos de codigo (Snippets) y tenerlos a mano sin conexion a internet.
 
+![](screenshot.png)
+
 ### instalación
 
 Crear entorno (VENV) y instalar esto:
