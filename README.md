@@ -1,4 +1,5 @@
-# snipeptsapp
+# Snippets app
+
 Es una aplicación creada con Pywebview para crear trozos de codigo (Snippets) y tenerlos a mano sin conexion a internet.
 
 ### instalación
